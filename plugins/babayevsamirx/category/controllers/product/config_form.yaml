@@ -1,0 +1,10 @@
+name: Product
+form: $/babayevsamirx/category/models/product/fields.yaml
+modelClass: Babayevsamirx\Category\Models\Product
+defaultRedirect: babayevsamirx/category/product
+create:
+    redirect: 'babayevsamirx/category/product/update/:id'
+    redirectClose: babayevsamirx/category/product
+update:
+    redirect: babayevsamirx/category/product
+    redirectClose: babayevsamirx/category/product

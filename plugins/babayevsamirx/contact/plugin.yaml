@@ -1,0 +1,6 @@
+plugin:
+    name: 'babayevsamirx.contact::lang.plugin.name'
+    description: 'babayevsamirx.contact::lang.plugin.description'
+    author: babayevsamirx
+    icon: oc-icon-adjust
+    homepage: ''

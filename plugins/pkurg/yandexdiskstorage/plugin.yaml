@@ -1,0 +1,6 @@
+plugin:
+    name: 'pkurg.yandexdiskstorage::lang.plugin.name'
+    description: 'Provides the Webdav Filesystem Driver for OctoberCMS'
+    author: Vladimir
+    icon: oc-icon-adjust
+    homepage: ''

@@ -1,0 +1,13 @@
+fields:
+    section_title:
+        label: 'Yandex OAuth-token'
+        span: full
+        type: section
+    yadiskapikey:
+        span: full
+        # comment: https://oauth.yandex.com/
+    content:
+        type: partial
+        path: $/pkurg/yandexdiskstorage/models/settings/_content_field.htm
+
+      

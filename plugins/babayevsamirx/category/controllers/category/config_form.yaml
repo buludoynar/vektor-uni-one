@@ -1,0 +1,10 @@
+name: Category
+form: $/babayevsamirx/category/models/category/fields.yaml
+modelClass: Babayevsamirx\Category\Models\Category
+defaultRedirect: babayevsamirx/category/category
+create:
+    redirect: 'babayevsamirx/category/category/update/:id'
+    redirectClose: babayevsamirx/category/category
+update:
+    redirect: babayevsamirx/category/category
+    redirectClose: babayevsamirx/category/category

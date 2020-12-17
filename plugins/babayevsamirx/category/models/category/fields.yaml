@@ -1,0 +1,31 @@
+tabs:
+    fields:
+        title:
+            label: 'Kateqoriya Adı'
+            span: auto
+            type: text
+            tab: 'Tab 1'
+        parent_id:
+            label: 'Aid Olduğu Kateqoriya ID'
+            span: auto
+            type: number
+            tab: 'Tab 1'
+        description:
+            label: 'Kateqoriya Haqqında'
+            size: ''
+            span: full
+            type: richeditor
+            tab: 'Tab 1'
+        categ_repeater:
+            label: 'Kateqoriya Foto(la'
+            prompt: 'Yeni Foto'
+            span: auto
+            type: repeater
+            tab: 'Tab 1'
+            form:
+                fields:
+                    categ_img:
+                        label: 'Foto seç'
+                        mode: image
+                        span: full
+                        type: mediafinder

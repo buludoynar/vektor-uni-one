@@ -1,0 +1,29 @@
+{
+	"name": "arhitector/yandex-disk-flysystem",
+	"description": "The flysystem adapter for yandex disk rest api.",
+	"keywords": [
+		"yandex disk",
+		"яндекс диск",
+		"filesystem",
+		"filesystems",
+		"file systems",
+		"cloud",
+		"cloud files"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Dmitry Arhitector",
+			"email": "dmitry.arhitector@yandex.ru"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Arhitector\\Yandex\\Disk\\Adapter\\": "src/"
+		}
+	},
+	"require": {
+		"arhitector/yandex": "~2.0",
+		"league/flysystem": "^1.0"
+	}
+}

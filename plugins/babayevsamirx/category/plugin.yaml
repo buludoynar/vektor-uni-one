@@ -1,0 +1,16 @@
+plugin:
+    name: 'babayevsamirx.category::lang.plugin.name'
+    description: 'babayevsamirx.category::lang.plugin.description'
+    author: babayevsamirx
+    icon: oc-icon-list-alt
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Kateqoriya & Produkt'
+        url: babayevsamirx/category/category
+        icon: icon-list-alt
+        sideMenu:
+            side-menu-item:
+                label: Produkt
+                url: babayevsamirx/category/product
+                icon: icon-shopping-cart

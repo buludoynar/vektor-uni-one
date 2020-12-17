@@ -1,0 +1,11 @@
+columns:
+    title:
+        label: 'Produkt Adı'
+        type: text
+        searchable: true
+        sortable: true
+    code:
+        label: 'Produkt Kodu'
+        type: text
+        searchable: true
+        sortable: true

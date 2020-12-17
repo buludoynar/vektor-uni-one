@@ -1,0 +1,39 @@
+tabs:
+    fields:
+        title:
+            label: 'Produkt Adı'
+            span: auto
+            type: text
+            tab: 'Tab 1'
+        code:
+            label: 'Produkt Kodu'
+            span: auto
+            type: text
+            tab: 'Tab 1'
+        description:
+            label: 'Produkt Haqqında'
+            size: ''
+            span: full
+            type: richeditor
+            tab: 'Tab 1'
+        category:
+            label: 'Aid olduğu Kateqoriya'
+            nameFrom: name
+            descriptionFrom: description
+            select: title
+            span: auto
+            type: relation
+            tab: 'Tab 1'
+        product_repeater:
+            label: Fotolar
+            prompt: 'Yeni Foto'
+            span: auto
+            type: repeater
+            tab: 'Tab 1'
+            form:
+                fields:
+                    product_img:
+                        label: Foto
+                        mode: image
+                        span: auto
+                        type: mediafinder

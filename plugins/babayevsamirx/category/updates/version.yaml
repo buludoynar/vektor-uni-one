@@ -1,0 +1,17 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table babayevsamirx_category_'
+    - builder_table_create_babayevsamirx_category_.php
+1.0.3:
+    - 'Updated table babayevsamirx_category_'
+    - builder_table_update_babayevsamirx_category_.php
+1.0.4:
+    - 'Updated table babayevsamirx_category_'
+    - builder_table_update_babayevsamirx_category__2.php
+1.0.5:
+    - 'Created table babayevsamirx_category_product'
+    - builder_table_create_babayevsamirx_category_product.php
+1.0.6:
+    - 'Created table babayevsamirx_category_category_product'
+    - builder_table_create_babayevsamirx_category_category_product.php
