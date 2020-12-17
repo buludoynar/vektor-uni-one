@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://edomedo-hero-master.localhost/'),
+    'url' => env('APP_URL', 'https://vektor-uni-one.herokuapp.com/'),
 
     /*
     |--------------------------------------------------------------------------

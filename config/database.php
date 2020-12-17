@@ -68,11 +68,11 @@ return [
 
         'pgsql' => [
             'driver'   => 'pgsql',
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => env('DB_HOST', 'ec2-54-75-229-28.eu-west-1.compute.amazonaws.com'),
             'port' => env('DB_PORT', 5432),
-            'database' => env('DB_DATABASE', 'edomedo'),
-            'username' => env('DB_USERNAME', ''),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'd52vr5g1pfpm9k'),
+            'username' => env('DB_USERNAME', 'caprkbhcrqjawk'),
+            'password' => env('DB_PASSWORD', '9af4aa4d1a3215d81d1851e22be46d0b271803608a0596b2d929c38a1d531716'),
             'charset'  => 'utf8',
             'prefix'   => '',
             'schema'   => 'public',

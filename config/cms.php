@@ -361,7 +361,7 @@ return [
     */
 
     // 'linkPolicy' => env('LINK_POLICY', 'detect'),
-    'linkPolicy' => 'detect',
+    'linkPolicy' => 'secure',
 
 
     /*
